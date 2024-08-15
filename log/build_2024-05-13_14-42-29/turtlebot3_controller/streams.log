@@ -1,0 +1,38 @@
+[0.122s] Invoking command in '/home/an/an_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_controller -- -j4 -l4
+[0.510s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_publisher.dir/src/odom_publisher.cpp.o[0m
+[33.437s] [100%] [32m[1mLinking CXX executable odom_publisher[0m
+[35.663s] [100%] Built target odom_publisher
+[35.701s] Invoked command in '/home/an/an_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_controller -- -j4 -l4
+[35.853s] Invoking command in '/home/an/an_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_controller
+[35.881s] -- Install configuration: ""
+[35.881s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include
+[35.881s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include/turtlebot3_controller
+[35.882s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/odom_publisher.hpp
+[35.883s] -- Installing: /home/an/an_ws/install/turtlebot3_controller/lib/turtlebot3_controller/odom_publisher
+[35.912s] -- Set runtime path of "/home/an/an_ws/install/turtlebot3_controller/lib/turtlebot3_controller/odom_publisher" to ""
+[35.913s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+[35.913s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/gazebo_ros2_ctl_use_sim.yaml
+[35.913s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/ekf_old.yaml
+[35.914s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/controller.yaml
+[35.914s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/ekf.yaml
+[35.914s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+[35.915s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/diff_drive_controller.launch.py
+[35.915s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/launch_robot_controller.launch.py
+[35.916s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/tb3_bringup.launch.py
+[35.916s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/test.py
+[35.917s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot3_controller
+[35.917s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot3_controller
+[35.917s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.sh
+[35.918s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.dsv
+[35.918s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.sh
+[35.918s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.dsv
+[35.919s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.bash
+[35.919s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.sh
+[35.919s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.zsh
+[35.920s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.dsv
+[35.920s] -- Installing: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv
+[35.921s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages/turtlebot3_controller
+[35.921s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig.cmake
+[35.921s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig-version.cmake
+[35.922s] -- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.xml
+[35.928s] Invoked command in '/home/an/an_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_controller

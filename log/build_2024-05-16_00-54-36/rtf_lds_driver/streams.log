@@ -1,0 +1,69 @@
+[0.105s] Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/rtf_lds_lidar-master -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/rtf_lds_driver
+[0.936s] -- The C compiler identification is GNU 11.4.0
+[1.322s] -- The CXX compiler identification is GNU 11.4.0
+[1.395s] -- Detecting C compiler ABI info
+[1.947s] -- Detecting C compiler ABI info - done
+[2.001s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.011s] -- Detecting C compile features
+[2.014s] -- Detecting C compile features - done
+[2.033s] -- Detecting CXX compiler ABI info
+[2.679s] -- Detecting CXX compiler ABI info - done
+[2.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.728s] -- Detecting CXX compile features
+[2.731s] -- Detecting CXX compile features - done
+[2.760s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.058s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.812s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.277s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.326s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.395s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.275s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.301s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.188s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.388s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.929s] -- Looking for pthread.h
+[8.539s] -- Looking for pthread.h - found
+[8.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.999s] -- Found Threads: TRUE  
+[10.113s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.911s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[11.448s] -- Configuring done
+[11.533s] -- Generating done
+[11.545s] -- Build files have been written to: /home/an/an_ws/build/rtf_lds_driver
+[11.625s] Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/rtf_lds_lidar-master -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/rtf_lds_driver
+[11.648s] Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/rtf_lds_driver -- -j4 -l4
+[11.976s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[73.345s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[83.995s] [100%] Built target hlds_laser_publisher
+[84.050s] Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/rtf_lds_driver -- -j4 -l4
+[84.204s] Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/rtf_lds_driver
+[84.252s] -- Install configuration: ""
+[84.253s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch
+[84.255s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/hlds_laser.launch.py
+[84.258s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/view_hlds_laser.launch.py
+[84.261s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz
+[84.263s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz/hlds_laser.rviz
+[84.266s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/lib/rtf_lds_driver/hlds_laser_publisher
+[84.280s] -- Set runtime path of "/home/an/an_ws/install/rtf_lds_driver/lib/rtf_lds_driver/hlds_laser_publisher" to ""
+[84.285s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/package_run_dependencies/rtf_lds_driver
+[84.287s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/parent_prefix_path/rtf_lds_driver
+[84.290s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.sh
+[84.292s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.dsv
+[84.294s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.sh
+[84.295s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.dsv
+[84.298s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.bash
+[84.300s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.sh
+[84.303s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.zsh
+[84.306s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.dsv
+[84.307s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.dsv
+[84.315s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/packages/rtf_lds_driver
+[84.317s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.319s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.322s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig.cmake
+[84.324s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig-version.cmake
+[84.326s] -- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.xml
+[84.339s] Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/rtf_lds_driver

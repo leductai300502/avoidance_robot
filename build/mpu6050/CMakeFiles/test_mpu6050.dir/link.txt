@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_mpu6050.dir/src/mpu6050_lib.cpp.o CMakeFiles/test_mpu6050.dir/src/test_mpu6050.cpp.o -o test_mpu6050  -li2c 

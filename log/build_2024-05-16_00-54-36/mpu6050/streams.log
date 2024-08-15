@@ -1,0 +1,95 @@
+[0.107s] Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/mpu6050 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/mpu6050
+[0.986s] -- The CXX compiler identification is GNU 11.4.0
+[1.048s] -- Detecting CXX compiler ABI info
+[1.594s] -- Detecting CXX compiler ABI info - done
+[1.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.648s] -- Detecting CXX compile features
+[1.649s] -- Detecting CXX compile features - done
+[1.685s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.115s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.359s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.978s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.076s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.227s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.672s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.698s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.959s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.351s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.365s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.458s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.514s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.795s] -- Looking for C++ include pthread.h
+[11.409s] -- Looking for C++ include pthread.h - found
+[11.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.039s] -- Found Threads: TRUE  
+[13.380s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.142s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.148s] -- Configured cppcheck include dirs: /home/an/an_ws/src/mpu6050/include;$<BUILD_INTERFACE:/home/an/an_ws/src/mpu6050/include>
+[14.149s] -- Configured cppcheck exclude dirs and/or files: 
+[14.166s] -- Added test 'lint_cmake' to check CMake code style
+[14.183s] -- Added test 'uncrustify' to check C / C++ code style
+[14.183s] -- Configured uncrustify additional arguments: 
+[14.189s] -- Added test 'xmllint' to check XML markup files
+[14.227s] -- Configuring done
+[14.587s] -- Generating done
+[14.599s] -- Build files have been written to: /home/an/an_ws/build/mpu6050
+[14.666s] Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/mpu6050 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/mpu6050
+[14.668s] Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/mpu6050 -- -j4 -l4
+[14.969s] [  8%] [32mBuilding CXX object CMakeFiles/mpu6050_covariances.dir/src/mpu6050_lib.cpp.o[0m
+[15.053s] [ 16%] [32mBuilding CXX object CMakeFiles/mpu6050_offsets.dir/src/mpu6050_lib.cpp.o[0m
+[15.070s] [ 25%] [32mBuilding CXX object CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_hardware_interface.cpp.o[0m
+[15.102s] [ 33%] [32mBuilding CXX object CMakeFiles/test_mpu6050.dir/src/mpu6050_lib.cpp.o[0m
+[21.135s] [ 41%] [32mBuilding CXX object CMakeFiles/mpu6050_offsets.dir/src/mpu6050_offsets.cpp.o[0m
+[22.131s] [ 50%] [32mBuilding CXX object CMakeFiles/test_mpu6050.dir/src/test_mpu6050.cpp.o[0m
+[22.756s] [ 58%] [32mBuilding CXX object CMakeFiles/mpu6050_covariances.dir/src/mpu6050_covariances.cpp.o[0m
+[26.232s] [ 66%] [32m[1mLinking CXX executable mpu6050_offsets[0m
+[26.334s] [ 75%] [32m[1mLinking CXX executable mpu6050_covariances[0m
+[27.117s] [ 75%] Built target mpu6050_offsets
+[27.231s] [ 75%] Built target mpu6050_covariances
+[27.233s] [ 83%] [32mBuilding CXX object CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_lib.cpp.o[0m
+[28.243s] [ 91%] [32m[1mLinking CXX executable test_mpu6050[0m
+[29.037s] [ 91%] Built target test_mpu6050
+[48.130s] [100%] [32m[1mLinking CXX shared library libmpu6050_hardware_interface.so[0m
+[50.576s] [100%] Built target mpu6050_hardware_interface
+[50.711s] Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/mpu6050 -- -j4 -l4
+[51.222s] Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/mpu6050
+[51.297s] -- Install configuration: ""
+[51.304s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/mpu6050_hardware.xml
+[51.310s] -- Installing: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface
+[51.313s] -- Installing: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050
+[51.315s] -- Installing: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050/mpu6050_lib.h
+[51.318s] -- Installing: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050/mpu6050_hardware_interface.hpp
+[51.333s] -- Installing: /home/an/an_ws/install/mpu6050/lib/libmpu6050_hardware_interface.so
+[51.342s] -- Set runtime path of "/home/an/an_ws/install/mpu6050/lib/libmpu6050_hardware_interface.so" to ""
+[51.345s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/library_path.sh
+[51.348s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/library_path.dsv
+[51.360s] -- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/mpu6050_offsets
+[51.364s] -- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/mpu6050_covariances
+[51.367s] -- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/test_mpu6050
+[51.371s] -- Installing: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/package_run_dependencies/mpu6050
+[51.385s] -- Installing: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/parent_prefix_path/mpu6050
+[51.391s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/ament_prefix_path.sh
+[51.394s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/ament_prefix_path.dsv
+[51.397s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/path.sh
+[51.400s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/path.dsv
+[51.405s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.bash
+[51.416s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.sh
+[51.422s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.zsh
+[51.424s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.dsv
+[51.431s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/package.dsv
+[51.434s] -- Installing: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/packages/mpu6050
+[51.436s] -- Installing: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mpu6050
+[51.446s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/export_mpu6050_hardware_interfaceExport.cmake
+[51.448s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/export_mpu6050_hardware_interfaceExport-noconfig.cmake
+[51.449s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_libraries-extras.cmake
+[51.460s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_targets-extras.cmake
+[51.467s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.475s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/mpu6050Config.cmake
+[51.477s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/mpu6050Config-version.cmake
+[51.484s] -- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/package.xml
+[51.507s] Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/mpu6050

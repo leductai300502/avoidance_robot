@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.001677] (diffdrive_esp32) JobQueued: {'identifier': 'diffdrive_esp32', 'dependencies': OrderedDict()}
+[0.002194] (mpu6050) JobQueued: {'identifier': 'mpu6050', 'dependencies': OrderedDict()}
+[0.002626] (rtf_lds_driver) JobQueued: {'identifier': 'rtf_lds_driver', 'dependencies': OrderedDict()}
+[0.002800] (turtlebot3_controller) JobQueued: {'identifier': 'turtlebot3_controller', 'dependencies': OrderedDict()}
+[0.003051] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.003202] (diffdrive_esp32) JobStarted: {'identifier': 'diffdrive_esp32'}
+[0.048369] (mpu6050) JobStarted: {'identifier': 'mpu6050'}
+[0.078727] (rtf_lds_driver) JobStarted: {'identifier': 'rtf_lds_driver'}
+[0.099064] (-) TimerEvent: {}
+[0.109214] (turtlebot3_controller) JobStarted: {'identifier': 'turtlebot3_controller'}
+[0.145710] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'cmake'}
+[0.152481] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'build'}
+[0.155408] (diffdrive_esp32) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/an_ws/build/diffdrive_esp32', '--', '-j4', '-l4'], 'cwd': '/home/an/an_ws/build/diffdrive_esp32', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/diffdrive_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[0.169376] (mpu6050) JobProgress: {'identifier': 'mpu6050', 'progress': 'cmake'}
+[0.176933] (mpu6050) JobProgress: {'identifier': 'mpu6050', 'progress': 'build'}
+[0.184106] (mpu6050) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/an_ws/build/mpu6050', '--', '-j4', '-l4'], 'cwd': '/home/an/an_ws/build/mpu6050', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/mpu6050'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[0.190160] (rtf_lds_driver) JobProgress: {'identifier': 'rtf_lds_driver', 'progress': 'cmake'}
+[0.196155] (rtf_lds_driver) JobProgress: {'identifier': 'rtf_lds_driver', 'progress': 'build'}
+[0.197449] (rtf_lds_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/an_ws/build/rtf_lds_driver', '--', '-j4', '-l4'], 'cwd': '/home/an/an_ws/build/rtf_lds_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/rtf_lds_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[0.207085] (-) TimerEvent: {}
+[0.226884] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'cmake'}
+[0.233740] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'build'}
+[0.235431] (turtlebot3_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/an_ws/build/turtlebot3_controller', '--', '-j4', '-l4'], 'cwd': '/home/an/an_ws/build/turtlebot3_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/turtlebot3_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[0.307310] (-) TimerEvent: {}
+[0.408799] (-) TimerEvent: {}
+[0.510998] (-) TimerEvent: {}
+[0.612721] (-) TimerEvent: {}
+[0.619357] (mpu6050) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/test_mpu6050.dir/src/mpu6050_lib.cpp.o\x1b[0m\n'}
+[0.626287] (mpu6050) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_hardware_interface.cpp.o\x1b[0m\n'}
+[0.651733] (mpu6050) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_covariances.dir/src/mpu6050_lib.cpp.o\x1b[0m\n'}
+[0.657501] (mpu6050) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_offsets.dir/src/mpu6050_lib.cpp.o\x1b[0m\n'}
+[0.667168] (rtf_lds_driver) StdoutLine: {'line': b'[100%] Built target hlds_laser_publisher\n'}
+[0.675645] (turtlebot3_controller) StdoutLine: {'line': b'[100%] Built target odom_publisher\n'}
+[0.686555] (diffdrive_esp32) StdoutLine: {'line': b'[100%] Built target diffdrive_esp32\n'}
+[0.712970] (-) TimerEvent: {}
+[0.725295] (rtf_lds_driver) CommandEnded: {'returncode': 0}
+[0.746535] (diffdrive_esp32) CommandEnded: {'returncode': 0}
+[0.773355] (turtlebot3_controller) CommandEnded: {'returncode': 0}
+[0.813197] (-) TimerEvent: {}
+[0.914568] (-) TimerEvent: {}
+[0.994575] (rtf_lds_driver) JobProgress: {'identifier': 'rtf_lds_driver', 'progress': 'install'}
+[1.014804] (-) TimerEvent: {}
+[1.059944] (rtf_lds_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/an_ws/build/rtf_lds_driver'], 'cwd': '/home/an/an_ws/build/rtf_lds_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/rtf_lds_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.093211] (turtlebot3_controller) JobProgress: {'identifier': 'turtlebot3_controller', 'progress': 'install'}
+[1.093450] (turtlebot3_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/an_ws/build/turtlebot3_controller'], 'cwd': '/home/an/an_ws/build/turtlebot3_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/turtlebot3_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.115009] (-) TimerEvent: {}
+[1.117231] (rtf_lds_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.129261] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch\n'}
+[1.133799] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/hlds_laser.launch.py\n'}
+[1.136241] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/view_hlds_laser.launch.py\n'}
+[1.136894] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz\n'}
+[1.138338] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz/hlds_laser.rviz\n'}
+[1.151046] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/lib/rtf_lds_driver/hlds_laser_publisher\n'}
+[1.152256] (turtlebot3_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.153081] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include\n'}
+[1.153771] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include/turtlebot3_controller\n'}
+[1.154350] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/package_run_dependencies/rtf_lds_driver\n'}
+[1.155507] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/parent_prefix_path/rtf_lds_driver\n'}
+[1.169487] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.sh\n'}
+[1.169957] (diffdrive_esp32) JobProgress: {'identifier': 'diffdrive_esp32', 'progress': 'install'}
+[1.170063] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/include/include/turtlebot3_controller/odom_publisher.hpp\n'}
+[1.170446] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.dsv\n'}
+[1.170886] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.sh\n'}
+[1.171341] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.dsv\n'}
+[1.171973] (diffdrive_esp32) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/an_ws/build/diffdrive_esp32'], 'cwd': '/home/an/an_ws/build/diffdrive_esp32', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/diffdrive_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.173708] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.bash\n'}
+[1.174814] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.sh\n'}
+[1.175224] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.zsh\n'}
+[1.175547] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.dsv\n'}
+[1.175926] (rtf_lds_driver) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.dsv\n'}
+[1.176299] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/ament_index/resource_index/packages/rtf_lds_driver\n'}
+[1.176751] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.177217] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.177693] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig.cmake\n'}
+[1.178225] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig-version.cmake\n'}
+[1.178898] (rtf_lds_driver) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.xml\n'}
+[1.179569] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/lib/turtlebot3_controller/odom_publisher\n'}
+[1.180049] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config\n'}
+[1.185540] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/gazebo_ros2_ctl_use_sim.yaml\n'}
+[1.186278] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/ekf_old.yaml\n'}
+[1.189039] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/controller.yaml\n'}
+[1.189755] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/config/ekf.yaml\n'}
+[1.190581] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch\n'}
+[1.190985] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/diff_drive_controller.launch.py\n'}
+[1.191351] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/launch_robot_controller.launch.py\n'}
+[1.191707] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/tb3_bringup.launch.py\n'}
+[1.192057] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch/test.py\n'}
+[1.197657] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/package_run_dependencies/turtlebot3_controller\n'}
+[1.202554] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/parent_prefix_path/turtlebot3_controller\n'}
+[1.203245] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.sh\n'}
+[1.203925] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/ament_prefix_path.dsv\n'}
+[1.204542] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.sh\n'}
+[1.205107] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/environment/path.dsv\n'}
+[1.205455] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.bash\n'}
+[1.206105] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.sh\n'}
+[1.208325] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.zsh\n'}
+[1.208893] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/local_setup.dsv\n'}
+[1.209261] (turtlebot3_controller) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv\n'}
+[1.209627] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages/turtlebot3_controller\n'}
+[1.213243] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig.cmake\n'}
+[1.213789] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/cmake/turtlebot3_controllerConfig-version.cmake\n'}
+[1.214295] (rtf_lds_driver) CommandEnded: {'returncode': 0}
+[1.216255] (-) TimerEvent: {}
+[1.217080] (turtlebot3_controller) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.xml\n'}
+[1.227954] (diffdrive_esp32) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.232459] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/diffdrive_esp32.xml\n'}
+[1.233194] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32\n'}
+[1.233693] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32\n'}
+[1.234211] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/esp32_comms.hpp\n'}
+[1.235301] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/visibility_control.h\n'}
+[1.235834] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/wheel.hpp\n'}
+[1.237697] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/include/diffdrive_esp32/diffdrive_esp32/diffbot_system.hpp\n'}
+[1.239552] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/lib/libdiffdrive_esp32.so\n'}
+[1.241214] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.sh\n'}
+[1.242258] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/library_path.dsv\n'}
+[1.243798] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp32\n'}
+[1.247815] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp32\n'}
+[1.251913] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.sh\n'}
+[1.253309] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/ament_prefix_path.dsv\n'}
+[1.254004] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.sh\n'}
+[1.254398] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/environment/path.dsv\n'}
+[1.256362] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.bash\n'}
+[1.257089] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.sh\n'}
+[1.257812] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.zsh\n'}
+[1.258258] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/local_setup.dsv\n'}
+[1.258601] (diffdrive_esp32) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv\n'}
+[1.258870] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/ament_index/resource_index/packages/diffdrive_esp32\n'}
+[1.262703] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp32\n'}
+[1.299200] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export.cmake\n'}
+[1.300676] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/export_diffdrive_esp32Export-noconfig.cmake\n'}
+[1.301376] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.302509] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.303346] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config.cmake\n'}
+[1.304900] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/cmake/diffdrive_esp32Config-version.cmake\n'}
+[1.307535] (diffdrive_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.xml\n'}
+[1.316972] (-) TimerEvent: {}
+[1.356787] (diffdrive_esp32) CommandEnded: {'returncode': 0}
+[1.417491] (-) TimerEvent: {}
+[1.437103] (turtlebot3_controller) CommandEnded: {'returncode': 0}
+[1.517714] (-) TimerEvent: {}
+[1.603814] (rtf_lds_driver) JobEnded: {'identifier': 'rtf_lds_driver', 'rc': 0}
+[1.606408] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[1.618115] (-) TimerEvent: {}
+[1.665381] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[1.672572] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[1.674319] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/an/an_ws/build/turtlebot3_description', '--', '-j4', '-l4'], 'cwd': '/home/an/an_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[1.718353] (-) TimerEvent: {}
+[1.819731] (-) TimerEvent: {}
+[1.921477] (-) TimerEvent: {}
+[1.957532] (diffdrive_esp32) JobEnded: {'identifier': 'diffdrive_esp32', 'rc': 0}
+[2.021690] (-) TimerEvent: {}
+[2.054191] (turtlebot3_controller) JobEnded: {'identifier': 'turtlebot3_controller', 'rc': 0}
+[2.121916] (-) TimerEvent: {}
+[2.152692] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[2.222179] (-) TimerEvent: {}
+[2.323960] (-) TimerEvent: {}
+[2.345609] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[2.347762] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/an_ws/build/turtlebot3_description'], 'cwd': '/home/an/an_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/turtlebot3_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[2.400926] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.404951] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes\n'}
+[2.409276] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/lidar_link.stl\n'}
+[2.410335] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/base_link.stl\n'}
+[2.411064] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/imu_link.stl\n'}
+[2.412278] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheel_right_link.stl\n'}
+[2.412995] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/caster_back_left_link.stl\n'}
+[2.416415] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/r200_link.dae\n'}
+[2.417517] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/caster_back_right_link.stl\n'}
+[2.418160] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/TB3-RPi-camera-mount.stl\n'}
+[2.419399] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheel_left_link.stl\n'}
+[2.420023] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/pi_cam_v3_link.stl\n'}
+[2.420783] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf\n'}
+[2.422322] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3.gazebo.xacro\n'}
+[2.423322] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/gazebo_control.xacro\n'}
+[2.423977] (-) TimerEvent: {}
+[2.425682] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3.urdf.xacro\n'}
+[2.426772] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_ros2_control.xacro\n'}
+[2.427467] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.xacro\n'}
+[2.428279] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/launch\n'}
+[2.436101] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/launch/robot_state_publisher.launch.py\n'}
+[2.437111] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/launch/gzserver.launch.py\n'}
+[2.437676] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/launch/display.launch.py\n'}
+[2.438330] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/launch/gazebo.launch.py\n'}
+[2.442464] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/rviz\n'}
+[2.444562] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/main.rviz\n'}
+[2.445546] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/display.rviz\n'}
+[2.446349] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/control.rviz\n'}
+[2.453082] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world\n'}
+[2.454301] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/big_corridor\n'}
+[2.461232] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/test_big_corridor\n'}
+[2.462489] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/test_maze\n'}
+[2.463459] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/maze\n'}
+[2.464431] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/real_corridor\n'}
+[2.468382] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/play_ground\n'}
+[2.473020] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/room_4x4\n'}
+[2.473989] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo_world/small_corridor\n'}
+[2.474841] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models\n'}
+[2.475668] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun\n'}
+[2.476594] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model.sdf\n'}
+[2.477307] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model.config\n'}
+[2.488046] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_4.sdf\n'}
+[2.516937] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_3.sdf\n'}
+[2.517740] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/sun/model-1_2.sdf\n'}
+[2.518703] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane\n'}
+[2.519562] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model.sdf\n'}
+[2.520353] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model.config\n'}
+[2.522680] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_4.sdf\n'}
+[2.523691] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_3.sdf\n'}
+[2.524522] (-) TimerEvent: {}
+[2.533598] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/models/ground_plane/model-1_2.sdf\n'}
+[2.535627] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[2.536788] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[2.537647] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[2.538863] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[2.540046] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[2.541154] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[2.542051] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[2.543149] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[2.544104] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[2.552669] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[2.553516] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[2.554204] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[2.554750] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[2.555281] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[2.555759] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[2.556378] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[2.625311] (-) TimerEvent: {}
+[2.727331] (-) TimerEvent: {}
+[2.828794] (-) TimerEvent: {}
+[2.837827] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[2.929056] (-) TimerEvent: {}
+[3.030502] (-) TimerEvent: {}
+[3.132737] (-) TimerEvent: {}
+[3.234663] (-) TimerEvent: {}
+[3.336584] (-) TimerEvent: {}
+[3.437468] (-) TimerEvent: {}
+[3.538349] (-) TimerEvent: {}
+[3.639257] (-) TimerEvent: {}
+[3.740546] (-) TimerEvent: {}
+[3.841975] (-) TimerEvent: {}
+[3.943483] (-) TimerEvent: {}
+[4.007166] (mpu6050) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/test_mpu6050.dir/src/test_mpu6050.cpp.o\x1b[0m\n'}
+[4.010771] (mpu6050) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_offsets.dir/src/mpu6050_offsets.cpp.o\x1b[0m\n'}
+[4.043744] (-) TimerEvent: {}
+[4.127923] (mpu6050) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_covariances.dir/src/mpu6050_covariances.cpp.o\x1b[0m\n'}
+[4.144069] (-) TimerEvent: {}
+[4.245522] (-) TimerEvent: {}
+[4.346328] (-) TimerEvent: {}
+[4.447432] (-) TimerEvent: {}
+[4.548382] (-) TimerEvent: {}
+[4.649417] (-) TimerEvent: {}
+[4.750468] (-) TimerEvent: {}
+[4.851411] (-) TimerEvent: {}
+[4.952498] (-) TimerEvent: {}
+[5.053718] (-) TimerEvent: {}
+[5.154808] (-) TimerEvent: {}
+[5.256248] (-) TimerEvent: {}
+[5.357278] (-) TimerEvent: {}
+[5.458204] (-) TimerEvent: {}
+[5.559396] (-) TimerEvent: {}
+[5.660538] (-) TimerEvent: {}
+[5.761882] (-) TimerEvent: {}
+[5.863141] (-) TimerEvent: {}
+[5.964534] (-) TimerEvent: {}
+[6.065681] (-) TimerEvent: {}
+[6.166596] (-) TimerEvent: {}
+[6.267749] (-) TimerEvent: {}
+[6.368891] (-) TimerEvent: {}
+[6.424782] (mpu6050) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable mpu6050_offsets\x1b[0m\n'}
+[6.464094] (mpu6050) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_mpu6050\x1b[0m\n'}
+[6.469126] (-) TimerEvent: {}
+[6.570875] (-) TimerEvent: {}
+[6.672834] (-) TimerEvent: {}
+[6.707142] (mpu6050) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable mpu6050_covariances\x1b[0m\n'}
+[6.773140] (-) TimerEvent: {}
+[6.874617] (-) TimerEvent: {}
+[6.958927] (mpu6050) StdoutLine: {'line': b'[ 83%] Built target test_mpu6050\n'}
+[6.960153] (mpu6050) StdoutLine: {'line': b'[ 83%] Built target mpu6050_offsets\n'}
+[6.974819] (-) TimerEvent: {}
+[7.006386] (mpu6050) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_lib.cpp.o\x1b[0m\n'}
+[7.075025] (-) TimerEvent: {}
+[7.115991] (mpu6050) StdoutLine: {'line': b'[ 91%] Built target mpu6050_covariances\n'}
+[7.175261] (-) TimerEvent: {}
+[7.276105] (-) TimerEvent: {}
+[7.376830] (-) TimerEvent: {}
+[7.477551] (-) TimerEvent: {}
+[7.578270] (-) TimerEvent: {}
+[7.679094] (-) TimerEvent: {}
+[7.779882] (-) TimerEvent: {}
+[7.880701] (-) TimerEvent: {}
+[7.981494] (-) TimerEvent: {}
+[8.082348] (-) TimerEvent: {}
+[8.183283] (-) TimerEvent: {}
+[8.284237] (-) TimerEvent: {}
+[8.385125] (-) TimerEvent: {}
+[8.485944] (-) TimerEvent: {}
+[8.586767] (-) TimerEvent: {}
+[8.687694] (-) TimerEvent: {}
+[8.788520] (-) TimerEvent: {}
+[8.889430] (-) TimerEvent: {}
+[8.990294] (-) TimerEvent: {}
+[9.091256] (-) TimerEvent: {}
+[9.192287] (-) TimerEvent: {}
+[9.293184] (-) TimerEvent: {}
+[9.394089] (-) TimerEvent: {}
+[9.494979] (-) TimerEvent: {}
+[9.595871] (-) TimerEvent: {}
+[9.696776] (-) TimerEvent: {}
+[9.797662] (-) TimerEvent: {}
+[9.898408] (-) TimerEvent: {}
+[9.999216] (-) TimerEvent: {}
+[10.100000] (-) TimerEvent: {}
+[10.200745] (-) TimerEvent: {}
+[10.301464] (-) TimerEvent: {}
+[10.402236] (-) TimerEvent: {}
+[10.503046] (-) TimerEvent: {}
+[10.603762] (-) TimerEvent: {}
+[10.704478] (-) TimerEvent: {}
+[10.805228] (-) TimerEvent: {}
+[10.905953] (-) TimerEvent: {}
+[11.006682] (-) TimerEvent: {}
+[11.107418] (-) TimerEvent: {}
+[11.208157] (-) TimerEvent: {}
+[11.308887] (-) TimerEvent: {}
+[11.409594] (-) TimerEvent: {}
+[11.510291] (-) TimerEvent: {}
+[11.611002] (-) TimerEvent: {}
+[11.711727] (-) TimerEvent: {}
+[11.812416] (-) TimerEvent: {}
+[11.913175] (-) TimerEvent: {}
+[12.013894] (-) TimerEvent: {}
+[12.114659] (-) TimerEvent: {}
+[12.215403] (-) TimerEvent: {}
+[12.316110] (-) TimerEvent: {}
+[12.416865] (-) TimerEvent: {}
+[12.517569] (-) TimerEvent: {}
+[12.618290] (-) TimerEvent: {}
+[12.719011] (-) TimerEvent: {}
+[12.819738] (-) TimerEvent: {}
+[12.920506] (-) TimerEvent: {}
+[13.021294] (-) TimerEvent: {}
+[13.122053] (-) TimerEvent: {}
+[13.222794] (-) TimerEvent: {}
+[13.323521] (-) TimerEvent: {}
+[13.424280] (-) TimerEvent: {}
+[13.525039] (-) TimerEvent: {}
+[13.625741] (-) TimerEvent: {}
+[13.726451] (-) TimerEvent: {}
+[13.827196] (-) TimerEvent: {}
+[13.927892] (-) TimerEvent: {}
+[14.028649] (-) TimerEvent: {}
+[14.129429] (-) TimerEvent: {}
+[14.230389] (-) TimerEvent: {}
+[14.331506] (-) TimerEvent: {}
+[14.432349] (-) TimerEvent: {}
+[14.533109] (-) TimerEvent: {}
+[14.633830] (-) TimerEvent: {}
+[14.734545] (-) TimerEvent: {}
+[14.835261] (-) TimerEvent: {}
+[14.936005] (-) TimerEvent: {}
+[15.036758] (-) TimerEvent: {}
+[15.137467] (-) TimerEvent: {}
+[15.238176] (-) TimerEvent: {}
+[15.338884] (-) TimerEvent: {}
+[15.439627] (-) TimerEvent: {}
+[15.540322] (-) TimerEvent: {}
+[15.641040] (-) TimerEvent: {}
+[15.741769] (-) TimerEvent: {}
+[15.842464] (-) TimerEvent: {}
+[15.943196] (-) TimerEvent: {}
+[16.043938] (-) TimerEvent: {}
+[16.144700] (-) TimerEvent: {}
+[16.245405] (-) TimerEvent: {}
+[16.346106] (-) TimerEvent: {}
+[16.446831] (-) TimerEvent: {}
+[16.547496] (-) TimerEvent: {}
+[16.648207] (-) TimerEvent: {}
+[16.748880] (-) TimerEvent: {}
+[16.849574] (-) TimerEvent: {}
+[16.950284] (-) TimerEvent: {}
+[17.051409] (-) TimerEvent: {}
+[17.152342] (-) TimerEvent: {}
+[17.253112] (-) TimerEvent: {}
+[17.314220] (mpu6050) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmpu6050_hardware_interface.so\x1b[0m\n'}
+[17.353274] (-) TimerEvent: {}
+[17.454159] (-) TimerEvent: {}
+[17.555069] (-) TimerEvent: {}
+[17.655895] (-) TimerEvent: {}
+[17.756829] (-) TimerEvent: {}
+[17.857717] (-) TimerEvent: {}
+[17.958548] (-) TimerEvent: {}
+[18.059622] (-) TimerEvent: {}
+[18.160478] (-) TimerEvent: {}
+[18.261369] (-) TimerEvent: {}
+[18.362262] (-) TimerEvent: {}
+[18.463063] (-) TimerEvent: {}
+[18.479787] (mpu6050) StdoutLine: {'line': b'[100%] Built target mpu6050_hardware_interface\n'}
+[18.520176] (mpu6050) CommandEnded: {'returncode': 0}
+[18.563272] (-) TimerEvent: {}
+[18.664082] (-) TimerEvent: {}
+[18.749775] (mpu6050) JobProgress: {'identifier': 'mpu6050', 'progress': 'install'}
+[18.750961] (mpu6050) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/an/an_ws/build/mpu6050'], 'cwd': '/home/an/an_ws/build/mpu6050', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'an'), ('SSH_CLIENT', '192.168.171.203 48044 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/an/bao_ws/install/diffdrive_esp/lib:/home/an/an_ws/install/mpu6050/lib:/home/an/an_ws/install/diffdrive_esp32/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/an'), ('OLDPWD', '/home/an'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/an/bao_ws/install:/home/an/ros2_ws/install:/home/an/an_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'an'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/ros2_ws/install/self_driving:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/an/an_ws/build/mpu6050'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.171.203 48044 192.168.171.151 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages:/home/an/ros2_ws/install/self_driving/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/an/bao_ws/install/tb3_description:/home/an/bao_ws/install/tb3_controller:/home/an/bao_ws/install/diffdrive_esp:/home/an/an_ws/install/turtlebot3_description:/home/an/an_ws/install/turtlebot3_controller:/home/an/an_ws/install/rtf_lds_driver:/home/an/an_ws/install/mpu6050:/home/an/an_ws/install/diffdrive_esp32:/home/an/ros2_ws/install/self_driving:/opt/ros/humble')]), 'shell': False}
+[18.764245] (-) TimerEvent: {}
+[18.791072] (mpu6050) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.791756] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/mpu6050_hardware.xml\n'}
+[18.792187] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface\n'}
+[18.792562] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050\n'}
+[18.793012] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050/mpu6050_lib.h\n'}
+[18.793983] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/include/mpu6050_hardware_interface/mpu6050/mpu6050_hardware_interface.hpp\n'}
+[18.797733] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/lib/libmpu6050_hardware_interface.so\n'}
+[18.806073] (mpu6050) StdoutLine: {'line': b'-- Set runtime path of "/home/an/an_ws/install/mpu6050/lib/libmpu6050_hardware_interface.so" to ""\n'}
+[18.806736] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/library_path.sh\n'}
+[18.807240] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/library_path.dsv\n'}
+[18.808428] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/mpu6050_offsets\n'}
+[18.810787] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/mpu6050_covariances\n'}
+[18.816877] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/lib/mpu6050/test_mpu6050\n'}
+[18.818524] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/package_run_dependencies/mpu6050\n'}
+[18.819651] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/parent_prefix_path/mpu6050\n'}
+[18.820205] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/ament_prefix_path.sh\n'}
+[18.820740] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/ament_prefix_path.dsv\n'}
+[18.821277] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/path.sh\n'}
+[18.821769] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/environment/path.dsv\n'}
+[18.822260] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.bash\n'}
+[18.822814] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.sh\n'}
+[18.823273] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.zsh\n'}
+[18.823740] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/local_setup.dsv\n'}
+[18.824175] (mpu6050) StdoutLine: {'line': b'-- Installing: /home/an/an_ws/install/mpu6050/share/mpu6050/package.dsv\n'}
+[18.825631] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/packages/mpu6050\n'}
+[18.826662] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mpu6050\n'}
+[18.831541] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/export_mpu6050_hardware_interfaceExport.cmake\n'}
+[18.832087] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/export_mpu6050_hardware_interfaceExport-noconfig.cmake\n'}
+[18.832516] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.833014] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.833490] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.833948] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/mpu6050Config.cmake\n'}
+[18.834373] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/cmake/mpu6050Config-version.cmake\n'}
+[18.834795] (mpu6050) StdoutLine: {'line': b'-- Up-to-date: /home/an/an_ws/install/mpu6050/share/mpu6050/package.xml\n'}
+[18.839597] (mpu6050) CommandEnded: {'returncode': 0}
+[18.864749] (-) TimerEvent: {}
+[18.966905] (-) TimerEvent: {}
+[19.067700] (-) TimerEvent: {}
+[19.146635] (mpu6050) JobEnded: {'identifier': 'mpu6050', 'rc': 0}
+[19.149616] (-) EventReactorShutdown: {}

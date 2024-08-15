@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/an/an_ws/install/turtlebot3_controller/include/**",
+        "/home/an/an_ws/install/serial_motor_msgs/include/**",
+        "/home/an/an_ws/install/diffdrive_esp32/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/an/an_ws/src/rtf_lds_lidar-master/include/**",
+        "/home/an/an_ws/src/serial_motor_msgs/include/**",
+        "/home/an/an_ws/src/turtlebot3_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

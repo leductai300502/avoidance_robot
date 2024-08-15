@@ -1,0 +1,435 @@
+[0.542s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.542s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffacdbf9a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffacd04550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffacd04550>>)
+[1.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.426s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/an/an_ws'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extensions ['ignore', 'ignore_ament_install']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extension 'ignore'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extension 'ignore_ament_install'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extensions ['colcon_pkg']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extension 'colcon_pkg'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extensions ['colcon_meta']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extension 'colcon_meta'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extensions ['ros']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp32) by extension 'ros'
+[1.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_esp32' with type 'ros.ament_cmake' and name 'diffdrive_esp32'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extensions ['ignore', 'ignore_ament_install']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extension 'ignore'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extension 'ignore_ament_install'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extensions ['colcon_pkg']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extension 'colcon_pkg'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extensions ['colcon_meta']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extension 'colcon_meta'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extensions ['ros']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050) by extension 'ros'
+[1.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpu6050' with type 'ros.ament_cmake' and name 'mpu6050'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extensions ['ignore', 'ignore_ament_install']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extension 'ignore'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extension 'ignore_ament_install'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extensions ['colcon_pkg']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extension 'colcon_meta'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extensions ['ros']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtf_lds_lidar-master) by extension 'ros'
+[1.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtf_lds_lidar-master' with type 'ros.ament_cmake' and name 'rtf_lds_driver'
+[1.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extension 'ignore'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extension 'ignore_ament_install'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extensions ['colcon_pkg']
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extension 'colcon_pkg'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extensions ['colcon_meta']
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extension 'colcon_meta'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extensions ['ros']
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_controller) by extension 'ros'
+[1.563s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_controller' with type 'ros.ament_cmake' and name 'turtlebot3_controller'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ignore'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ignore_ament_install'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['colcon_pkg']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'colcon_pkg'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['colcon_meta']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'colcon_meta'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['ros']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ros'
+[1.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.671s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/an/an_ws/install/turtlebot3_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.672s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/an/an_ws/install/turtlebot3_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.672s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/an/an_ws/install/rtf_lds_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.673s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/an/an_ws/install/mpu6050' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.673s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/an/an_ws/install/diffdrive_esp32' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.674s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/an/an_ws/install/turtlebot3_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.674s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/an/an_ws/install/turtlebot3_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.674s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/an/an_ws/install/rtf_lds_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.675s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/an/an_ws/install/mpu6050' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.675s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/an/an_ws/install/diffdrive_esp32' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.679s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/an/bao_ws/install
+[1.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/an/ros2_ws/install
+[1.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/an/an_ws/install
+[1.692s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 229 installed packages in /opt/ros/humble
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_args' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_target' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_clean_cache' from command line to 'False'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_clean_first' from command line to 'False'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'cmake_force_configure' from command line to 'False'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'ament_cmake_args' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'catkin_cmake_args' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp32' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.907s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_esp32' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/an_ws/build/diffdrive_esp32', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/an_ws/install/diffdrive_esp32', 'merge_install': False, 'path': '/home/an/an_ws/src/diffdrive_esp32', 'symlink_install': False, 'test_result_base': None}
+[1.908s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_args' from command line to 'None'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_target' from command line to 'None'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_clean_cache' from command line to 'False'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_clean_first' from command line to 'False'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'cmake_force_configure' from command line to 'False'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'ament_cmake_args' from command line to 'None'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'catkin_cmake_args' from command line to 'None'
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'mpu6050' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.910s] DEBUG:colcon.colcon_core.verb:Building package 'mpu6050' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/an_ws/build/mpu6050', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/an_ws/install/mpu6050', 'merge_install': False, 'path': '/home/an/an_ws/src/mpu6050', 'symlink_install': False, 'test_result_base': None}
+[1.911s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_args' from command line to 'None'
+[1.911s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_target' from command line to 'None'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'rtf_lds_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.912s] DEBUG:colcon.colcon_core.verb:Building package 'rtf_lds_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/an_ws/build/rtf_lds_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/an_ws/install/rtf_lds_driver', 'merge_install': False, 'path': '/home/an/an_ws/src/rtf_lds_lidar-master', 'symlink_install': False, 'test_result_base': None}
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_args' from command line to 'None'
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_target' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.915s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/an_ws/build/turtlebot3_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/an_ws/install/turtlebot3_controller', 'merge_install': False, 'path': '/home/an/an_ws/src/turtlebot3_controller', 'symlink_install': False, 'test_result_base': None}
+[1.917s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[1.917s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[1.917s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.918s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/an_ws/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/an_ws/install/turtlebot3_description', 'merge_install': False, 'path': '/home/an/an_ws/src/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[1.919s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.924s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/an_ws/src/diffdrive_esp32' with build type 'ament_cmake'
+[1.924s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/an_ws/src/diffdrive_esp32'
+[1.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/an_ws/src/mpu6050' with build type 'ament_cmake'
+[1.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/an_ws/src/mpu6050'
+[1.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.986s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/an_ws/src/rtf_lds_lidar-master' with build type 'ament_cmake'
+[1.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/an_ws/src/rtf_lds_lidar-master'
+[1.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.010s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/an_ws/src/turtlebot3_controller' with build type 'ament_cmake'
+[2.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/an_ws/src/turtlebot3_controller'
+[2.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/diffdrive_esp32
+[2.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/mpu6050 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/mpu6050
+[2.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/rtf_lds_lidar-master -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/rtf_lds_driver
+[2.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/turtlebot3_controller -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/turtlebot3_controller
+[13.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/rtf_lds_lidar-master -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/rtf_lds_driver
+[13.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/rtf_lds_driver -- -j4 -l4
+[16.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/turtlebot3_controller -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/turtlebot3_controller
+[16.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_controller -- -j4 -l4
+[16.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/mpu6050 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/mpu6050
+[16.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/mpu6050 -- -j4 -l4
+[25.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/diffdrive_esp32 -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/diffdrive_esp32
+[25.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/diffdrive_esp32 -- -j4 -l4
+[52.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/mpu6050 -- -j4 -l4
+[53.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/mpu6050
+[53.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050)
+[53.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/mpu6050
+[53.496s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050' for CMake module files
+[53.501s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050' for CMake config files
+[53.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050', 'cmake_prefix_path')
+[53.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.ps1'
+[53.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.dsv'
+[53.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.sh'
+[53.530s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib'
+[53.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050', 'ld_library_path_lib')
+[53.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.ps1'
+[53.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.dsv'
+[53.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.sh'
+[53.566s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/bin'
+[53.566s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib/pkgconfig/mpu6050.pc'
+[53.568s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib/python3.10/site-packages'
+[53.570s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/bin'
+[53.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.ps1'
+[53.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/package.dsv'
+[53.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.sh'
+[53.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.bash'
+[53.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.zsh'
+[53.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/mpu6050/share/colcon-core/packages/mpu6050)
+[54.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050)
+[54.654s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050' for CMake module files
+[54.659s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050' for CMake config files
+[54.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050', 'cmake_prefix_path')
+[54.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.ps1'
+[54.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.dsv'
+[54.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/cmake_prefix_path.sh'
+[54.712s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib'
+[54.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050', 'ld_library_path_lib')
+[54.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.ps1'
+[54.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.dsv'
+[54.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/mpu6050/share/mpu6050/hook/ld_library_path_lib.sh'
+[54.731s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/bin'
+[54.732s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib/pkgconfig/mpu6050.pc'
+[54.733s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/lib/python3.10/site-packages'
+[54.734s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/mpu6050/bin'
+[54.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.ps1'
+[54.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/mpu6050/share/mpu6050/package.dsv'
+[54.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.sh'
+[54.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.bash'
+[54.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/mpu6050/share/mpu6050/package.zsh'
+[54.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/mpu6050/share/colcon-core/packages/mpu6050)
+[54.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/an_ws/src/turtlebot3_description' with build type 'ament_cmake'
+[54.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/an_ws/src/turtlebot3_description'
+[54.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/turtlebot3_description
+[63.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/diffdrive_esp32 -- -j4 -l4
+[63.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/an_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/an/an_ws/install/turtlebot3_description
+[63.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_description -- -j4 -l4
+[63.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/diffdrive_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/diffdrive_esp32
+[63.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_esp32)
+[63.846s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32' for CMake module files
+[63.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/diffdrive_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/diffdrive_esp32
+[63.853s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32' for CMake config files
+[63.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp32', 'cmake_prefix_path')
+[63.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.ps1'
+[63.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.dsv'
+[63.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.sh'
+[63.868s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib'
+[63.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp32', 'ld_library_path_lib')
+[63.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.ps1'
+[63.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.dsv'
+[63.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.sh'
+[63.880s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/bin'
+[63.880s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib/pkgconfig/diffdrive_esp32.pc'
+[63.882s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib/python3.10/site-packages'
+[63.884s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/bin'
+[63.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.ps1'
+[63.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv'
+[63.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.sh'
+[63.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.bash'
+[63.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.zsh'
+[63.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/diffdrive_esp32/share/colcon-core/packages/diffdrive_esp32)
+[63.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_description -- -j4 -l4
+[64.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_description
+[64.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_esp32)
+[64.418s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32' for CMake module files
+[64.422s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32' for CMake config files
+[64.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp32', 'cmake_prefix_path')
+[64.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.ps1'
+[64.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.dsv'
+[64.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/cmake_prefix_path.sh'
+[64.461s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib'
+[64.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp32', 'ld_library_path_lib')
+[64.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.ps1'
+[64.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.dsv'
+[64.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/hook/ld_library_path_lib.sh'
+[64.507s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/bin'
+[64.508s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib/pkgconfig/diffdrive_esp32.pc'
+[64.511s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/lib/python3.10/site-packages'
+[64.513s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/diffdrive_esp32/bin'
+[64.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.ps1'
+[64.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.dsv'
+[64.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.sh'
+[64.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.bash'
+[64.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/diffdrive_esp32/share/diffdrive_esp32/package.zsh'
+[64.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/diffdrive_esp32/share/colcon-core/packages/diffdrive_esp32)
+[64.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[64.800s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description' for CMake module files
+[64.806s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description' for CMake config files
+[64.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_description
+[64.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[64.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[64.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[64.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[64.823s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/bin'
+[64.824s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[64.825s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/lib/python3.10/site-packages'
+[64.827s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/bin'
+[64.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[64.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[64.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[64.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[64.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[64.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[64.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[64.987s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description' for CMake module files
+[64.991s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description' for CMake config files
+[64.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[64.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[65.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[65.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[65.033s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/bin'
+[65.034s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[65.035s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/lib/python3.10/site-packages'
+[65.037s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_description/bin'
+[65.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[65.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[65.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[65.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[65.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[65.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[86.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/rtf_lds_driver -- -j4 -l4
+[86.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/rtf_lds_driver
+[86.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtf_lds_driver)
+[86.323s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver' for CMake module files
+[86.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/rtf_lds_driver
+[86.331s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver' for CMake config files
+[86.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtf_lds_driver', 'cmake_prefix_path')
+[86.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.ps1'
+[86.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.dsv'
+[86.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.sh'
+[86.346s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib'
+[86.346s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/bin'
+[86.347s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib/pkgconfig/rtf_lds_driver.pc'
+[86.348s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib/python3.10/site-packages'
+[86.349s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/bin'
+[86.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.ps1'
+[86.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.dsv'
+[86.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.sh'
+[86.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.bash'
+[86.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.zsh'
+[86.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/rtf_lds_driver/share/colcon-core/packages/rtf_lds_driver)
+[86.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtf_lds_driver)
+[86.533s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver' for CMake module files
+[86.538s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver' for CMake config files
+[86.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtf_lds_driver', 'cmake_prefix_path')
+[86.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.ps1'
+[86.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.dsv'
+[86.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/hook/cmake_prefix_path.sh'
+[86.558s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib'
+[86.559s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/bin'
+[86.559s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib/pkgconfig/rtf_lds_driver.pc'
+[86.561s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/lib/python3.10/site-packages'
+[86.563s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/rtf_lds_driver/bin'
+[86.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.ps1'
+[86.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.dsv'
+[86.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.sh'
+[86.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.bash'
+[86.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.zsh'
+[86.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/rtf_lds_driver/share/colcon-core/packages/rtf_lds_driver)
+[88.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/an_ws/build/turtlebot3_controller -- -j4 -l4
+[88.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/an_ws/build/turtlebot3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_controller
+[88.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_controller)
+[88.756s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller' for CMake module files
+[88.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/an_ws/build/turtlebot3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/an_ws/build/turtlebot3_controller
+[88.760s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller' for CMake config files
+[88.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_controller', 'cmake_prefix_path')
+[88.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.ps1'
+[88.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.dsv'
+[88.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.sh'
+[88.770s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib'
+[88.770s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/bin'
+[88.771s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib/pkgconfig/turtlebot3_controller.pc'
+[88.772s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib/python3.10/site-packages'
+[88.773s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/bin'
+[88.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.ps1'
+[88.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv'
+[88.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.sh'
+[88.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.bash'
+[88.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.zsh'
+[88.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/turtlebot3_controller/share/colcon-core/packages/turtlebot3_controller)
+[88.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_controller)
+[88.918s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller' for CMake module files
+[88.922s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller' for CMake config files
+[88.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_controller', 'cmake_prefix_path')
+[88.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.ps1'
+[88.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.dsv'
+[88.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/hook/cmake_prefix_path.sh'
+[88.931s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib'
+[88.932s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/bin'
+[88.932s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib/pkgconfig/turtlebot3_controller.pc'
+[88.933s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/lib/python3.10/site-packages'
+[88.935s] Level 1:colcon.colcon_core.environment:checking '/home/an/an_ws/install/turtlebot3_controller/bin'
+[88.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.ps1'
+[88.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.dsv'
+[88.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.sh'
+[88.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.bash'
+[88.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/an_ws/install/turtlebot3_controller/share/turtlebot3_controller/package.zsh'
+[88.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/an_ws/install/turtlebot3_controller/share/colcon-core/packages/turtlebot3_controller)
+[88.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[88.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[88.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[88.955s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[88.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[88.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[88.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[88.995s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[89.002s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[89.003s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[89.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/an_ws/install/local_setup.ps1'
+[89.009s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/an/an_ws/install/_local_setup_util_ps1.py'
+[89.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/an_ws/install/setup.ps1'
+[89.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/an_ws/install/local_setup.sh'
+[89.029s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/an/an_ws/install/_local_setup_util_sh.py'
+[89.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/an_ws/install/setup.sh'
+[89.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/an_ws/install/local_setup.bash'
+[89.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/an_ws/install/setup.bash'
+[89.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/an_ws/install/local_setup.zsh'
+[89.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/an_ws/install/setup.zsh'

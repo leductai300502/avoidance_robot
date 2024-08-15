@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mpu6050_covariances.dir/src/mpu6050_lib.cpp.o CMakeFiles/mpu6050_covariances.dir/src/mpu6050_covariances.cpp.o -o mpu6050_covariances  -li2c 
